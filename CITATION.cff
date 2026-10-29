@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: 'If you use this software, please cite the associated Case Study once it is published; see README for bibliographic title.'
+message: 'If you use this software, please cite this version-specific Zenodo software record and cite the associated Case Study separately once published.'
 title: 'Edge-IoT security-control resource-pressure saturation: software and bounded replay evidence'
 type: software
 authors:
@@ -7,3 +7,9 @@ authors:
     given-names: 'Manuel J. C. S.'
     affiliation: 'University of Trás-os-Montes and Alto Douro'
     orcid: 'https://orcid.org/0000-0002-8872-5721'
+doi: 10.5281/zenodo.23771093
+version: 1.0.0
+date-released: 2026-10-29
+repository-code: 'https://github.com/mcabralreis/edge-iot-risk-saturation-reproducibility'
+url: 'https://doi.org/10.5281/zenodo.23771093'
+license: MIT

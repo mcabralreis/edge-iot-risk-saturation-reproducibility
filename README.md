@@ -1,5 +1,8 @@
 # Edge-IoT security control: resource-pressure saturation replay
 
+[![Zenodo v1.0.0 DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23771093.svg)](https://doi.org/10.5281/zenodo.23771093)
+
+
 **Code, bounded evidence and reproducibility guidance for an accepted Case Study in *Discover Internet of Things* (Springer Nature).**
 
 **Manuscript not distributed.** This repository contains **no article PDF, LaTeX manuscript, review correspondence or manuscript figures**. The peer-reviewed study is titled *Resource Pressure Feedback Becomes Behaviorally Redundant Under Risk Trigger Saturation in Edge IoT Security Control* (Manuel J. C. S. Reis). A journal DOI will be added **only after publication and verification**.
@@ -113,6 +116,15 @@ The third-party dataset is **ToN_IoT** (UNSW Canberra). It is **not redistribute
 **Original author-developed project code is licensed under the MIT licence**, as expressly approved by the author on 29 October 2026. See [LICENSE](LICENSE) and [LICENSE_SCOPE.md](LICENSE_SCOPE.md). This grant does **not** extend to third-party ToN_IoT data, the accepted article or automatically to historical research datasets and evidence. Do not infer a public distribution permission from the inclusion of provenance information or SHA-256 hashes.
 
 **The repository is publicly available on GitHub.** The source code and archived evidence are documented in [docs/RELEASE_CHECKLIST.md](docs/RELEASE_CHECKLIST.md). The public release supports bounded archived-result verification; it does not provide a self-contained end-to-end experimental reproduction.
+
+## Cite this software
+
+Reis, M. J. C. S. (2026). *Edge-IoT security-control resource-pressure saturation: software and bounded replay evidence* (Version 1.0.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.23771093
+
+- **Version-specific DOI (v1.0.0):** https://doi.org/10.5281/zenodo.23771093
+- **All-versions DOI:** https://doi.org/10.5281/zenodo.23771092
+
+For a reproducibility claim based on the original archived artefacts, cite the **version-specific DOI**. GitHub changes after v1.0.0 are not retroactively part of its immutable Zenodo archive. The journal Case Study should be cited separately once its publication details and DOI are available.
 
 ## Reproducibility disclosures
 
