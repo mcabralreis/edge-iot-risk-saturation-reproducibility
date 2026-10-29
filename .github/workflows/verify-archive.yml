@@ -1,0 +1,22 @@
+
+name: Archived evidence checks
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Verify distributed source provenance
+        run: python scripts/verify_distributed_sources.py
+      - name: Verify 191 archived bins
+        run: python verify_191bins.py
+      - name: Check for excluded file categories
+        run: python scripts/verify_public_contents.py
