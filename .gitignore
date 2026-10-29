@@ -1,0 +1,27 @@
+
+# Never publish source data / private large evidence / models / experiments
+data/
+outputs/
+build/
+*.joblib
+*.pkl
+*.pickle
+policy_observations.csv
+terminal_ledger.csv
+Processed_Network_dataset.zip
+SEALED_oracle_evaluation_only.csv
+*.env
+.env*
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+*.log
+.DS_Store
+Thumbs.db
+# Do not publish manuscripts in the reproducibility repository
+*manuscript*.pdf
+*manuscript*.tex
+*reviewer*.pdf
+*response_to_editor*.pdf
