@@ -1,0 +1,39 @@
+{
+  "status": "READ_ONLY_23_POSITIVE_PRESSURE_WINDOWS_ANALYZED",
+  "scope": "One already-executed exploratory actuation replay; no new policy run, no oracle, no test, no inference of general no-effect",
+  "source_actions_sha256": "5346b3dc13d81b11ab3dbfb7bc65e563a18fd8b24ae49fbe65a6f553f5522c67",
+  "source_manifest_sha256": "d5ad5654a728bf4a260837efc3c1238a1583d6f7274d43edd0c7054171658a6d",
+  "source_controller_stream_sha256": "104e5f2675d2c813152ef8ca0977a48b4f068189eb0c19480a3e28de559f97d6",
+  "controller_development_thresholds": {
+    "recovery": 0.2,
+    "elevated": 0.4,
+    "critical": 0.75,
+    "recovery_windows": 3
+  },
+  "rows_per_policy": {
+    "B2": 191,
+    "P4": 191,
+    "A1": 191,
+    "B5": 191
+  },
+  "total_decision_bins": 191,
+  "positive_pressure_bins": 23,
+  "max_positive_pressure": 0.6666666666666666,
+  "different_P4_A1_bins_all": 0,
+  "threshold_exposure_categories": {
+    "RISK_ALREADY_CRITICAL_PRESSURE_CANNOT_RAISE_TRIGGER_LEVEL": 23
+  },
+  "observed_state_filter_profile_pairs": [
+    {
+      "P4_state": "CRITICAL",
+      "A1_state": "CRITICAL",
+      "P4_filter": "QUARANTINE_AND_STRICT_TOKEN_BUCKET",
+      "A1_filter": "QUARANTINE_AND_STRICT_TOKEN_BUCKET",
+      "n": 23
+    }
+  ],
+  "output_sha256": {
+    "positive_pressure_23_windows.csv": "5b2827adaf02f8df4b1809adeed3de4a9b3bf7bab8d1cc383f46e43579012ade"
+  },
+  "caution": "Threshold categories are sufficient-condition/descriptive classifications, not independent causal attribution; state history/hysteresis can be involved; equal states imply equal ActionProfile in this deterministic controller."
+}

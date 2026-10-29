@@ -1,0 +1,45 @@
+{
+  "status": "EXPLORATORY_DEVELOPMENT_ONLY",
+  "archive_sha256": "b024574780da5db96adf255c0a2effa71e1c31173d34eaaa80fbd4edc1b9010e",
+  "protocol": {
+    "features": "proto,dst_port and strictly previous completed 60-s raw-traffic aggregates; no label features",
+    "decision_time": "record ts; prior-window aggregation with end <= floor(ts/60)*60",
+    "d4_edges": [
+      1556203680,
+      1556239860,
+      1556251920,
+      1556263980
+    ],
+    "embargo_seconds": 300,
+    "upper_exclusive": 1556251620,
+    "d4_heldout_test_not_scored": true,
+    "same_campaign_and_validation_previously_opened": true,
+    "trained_model": "SGDClassifier one streaming pass, FeatureHasher 8192, all normal + 1/10 DDoS training rows",
+    "threshold": "exact distinct validation-score groups under FPR <= 0.05; no test use"
+  },
+  "counts": {
+    "train_ddos": 3843749,
+    "train_normal": 19399,
+    "train_used_normal": 19399,
+    "train_used_ddos": 384405,
+    "validation_ddos": 1321271,
+    "validation_normal": 32982
+  },
+  "validation_windows": 191,
+  "aggregate_windows": 4006,
+  "validation": {
+    "tn": 31410,
+    "fp": 1572,
+    "fn": 317659,
+    "tp": 1003612,
+    "fpr": 0.04766236128797526,
+    "recall_ddos": 0.7595807370327511,
+    "macro_f1": 0.513605262585051,
+    "n": 1354253,
+    "criterion_met": false,
+    "roc_auc_descriptive": 0.9677211908427985,
+    "average_precision_descriptive": 0.9990648883138975,
+    "distinct_score_groups": 1319,
+    "threshold": 0.9978600094336023
+  }
+}

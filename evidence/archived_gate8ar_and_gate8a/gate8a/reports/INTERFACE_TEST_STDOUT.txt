@@ -1,0 +1,6 @@
+SecurityOrchestrator interface test: PASS
+positive_checks=53
+negative_cases=45
+controller_parameters_calibrated=NO
+policy_actuation_executed=NO
+scientific_values_generated=NO

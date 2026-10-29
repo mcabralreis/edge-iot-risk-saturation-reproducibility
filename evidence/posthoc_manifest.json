@@ -1,0 +1,35 @@
+{
+  "status": "POSTHOC_EXPLORATORY_ONLY_NOT_M3",
+  "oracle_access_stage": "AFTER_ACTUATION_SEPARATE_PROCESS",
+  "source_actuation_sha256": "d5ad5654a728bf4a260837efc3c1238a1583d6f7274d43edd0c7054171658a6d",
+  "source_bridge_sha256": "b16be3decd3f9523d9a23af1323b884468973d466ab85fb1332db81b1141752a",
+  "source_oracle_sha256": "c910caeccf8fb95ea288ef863568e8af40ba9455389aa63af0540733ab6e838d",
+  "rows_per_policy": 1354253,
+  "truth_counts": {
+    "ddos": 1321271,
+    "normal": 32982
+  },
+  "policy_coverage": {
+    "B2": 1354253,
+    "P4": 1354253,
+    "A1": 1354253,
+    "B5": 1354253
+  },
+  "same_exact_oracle_event_set_each_policy": true,
+  "p4_a1": {
+    "compared_bins": 191,
+    "positive_P4_queue_pressure_bins": 23,
+    "max_P4_queue_pressure": 0.6666666666666666,
+    "different_action_or_remaining_bins": 0
+  },
+  "output_hashes": {
+    "class_outcomes.csv": "ba10fa39e30b9692476c96e165919fdbebe8490d4dc4553e3c047b023c6f08ae",
+    "p4_a1_differences.csv": "c80b3a2ee333a2e63a8959086160f0fe82989937ab578bae97b97e1c5b5043b9"
+  },
+  "limitations": [
+    "D6 validation region reused: exploratory only",
+    "unit-size records; uncalibrated capacity/queue; not Mbps or measured latency",
+    "static-ELEVATED proxy B2; score-gate filtering proxy; B5 delay sensitivity only",
+    "no causal identification of P4 effect from this single replay"
+  ]
+}

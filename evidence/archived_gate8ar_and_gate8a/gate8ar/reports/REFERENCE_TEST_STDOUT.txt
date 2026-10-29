@@ -1,0 +1,9 @@
+SecurityOrchestrator independent reference comparison: PASS
+risk_cases=500001
+pressure_cases=500001
+transition_cases=400000
+recovery_window_values_tested=1_TO_7
+action_profile_cases=4
+controller_parameters_calibrated=NO
+policy_actuation_executed=NO
+scientific_values_generated=NO

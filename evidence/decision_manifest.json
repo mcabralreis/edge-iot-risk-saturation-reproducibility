@@ -1,0 +1,17 @@
+{
+  "status": "DECISION_REPLAY_ONLY_NOT_M3",
+  "rows_input": 1354253,
+  "bins": 191,
+  "decision_rows": 764,
+  "policy_input_sha256": "bc70cb353ce64693f9783d76e092b1f097c5b34a1fec2e0eac27e6b7a710bcfc",
+  "controller_sha256": "b3d9abcb10f795b6c1b2b1653f5eebc421afae6c8016296457ebadd763e95a5f",
+  "central_delay_bins": 0,
+  "delay_scope": "SENSITIVITY_NOT_CALIBRATED",
+  "b2_scope": "STATIC_ELEVATED_CANDIDATE_NOT_FULL_B2_VALIDATED",
+  "resource_pressures": "UNOBSERVED_ZERO_PLACEHOLDERS_NO_P4_A1_EFFECT_INFERENCE",
+  "oracle_opened": false,
+  "traffic_actuated": false,
+  "goodput_measured": false,
+  "prior_window_only": true,
+  "d4_test_scored": false
+}

@@ -1,0 +1,14 @@
+protocol_id=COMNET-REBUILD-PROTOCOL-V1.1
+component=SecurityOrchestrator
+risk_score_rule=WEIGHTED_SECURITY_SIGNALS
+pressure_score_rule=MAX_QUEUE_LATENCY_SECURITY_PROCESSING
+controller_parameters_external=YES
+states=NORMAL,ELEVATED,CRITICAL,RECOVERY
+entry_precedence=CRITICAL_BEFORE_ELEVATED
+recovery_semantics=CONSECUTIVE_BELOW_RECOVERY_THRESHOLDS
+normal_cadence_s=1
+elevated_cadence_s=0.5
+critical_cadence_s=0.25
+recovery_cadence_s=0.5
+action_profiles=PASS
+invalid_input_rejection=PASS

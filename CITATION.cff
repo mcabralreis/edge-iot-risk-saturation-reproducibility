@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: 'If you use this software, please cite the associated Case Study once it is published; see README for bibliographic title.'
+title: 'Edge-IoT security-control resource-pressure saturation: software and bounded replay evidence'
+type: software
+authors:
+  - family-names: 'Reis'
+    given-names: 'Manuel J. C. S.'
+    affiliation: 'University of Trás-os-Montes and Alto Douro'
+    orcid: 'https://orcid.org/0000-0002-8872-5721'

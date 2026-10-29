@@ -1,0 +1,15 @@
+{
+  "status": "EXPLORATORY_REPLAY_EXPORTED_NOT_M3",
+  "input_source_sha256": "b024574780da5db96adf255c0a2effa71e1c31173d34eaaa80fbd4edc1b9010e",
+  "d4_lock_sha256": "f01acd65e10f52184d0f20f0cec6d2bab53cf513d787f032a07682d85b7ef875",
+  "d6_model_sha256": "7ed193e382383db329c81dacc6299e16f0024a44b65cf056a078b9d14467b007",
+  "threshold_frozen": 0.9978600094336023,
+  "rows": 1354253,
+  "interval_lower_inclusive": 1556240160,
+  "interval_upper_exclusive": 1556251620,
+  "D4_TEST_READ_OR_SCORED": false,
+  "policy_observations_sha256": "bc70cb353ce64693f9783d76e092b1f097c5b34a1fec2e0eac27e6b7a710bcfc",
+  "sealed_oracle_sha256": "c910caeccf8fb95ea288ef863568e8af40ba9455389aa63af0540733ab6e838d",
+  "scope": "flow-record observation proxy; not per-packet causal attribution, not measured 5G/NR, no policy efficacy",
+  "important": "ALL traffic types exported without oracle filtering; oracle CSV must be inaccessible to the policies. A held-out independent campaign is still required for confirmatory detector validation."
+}

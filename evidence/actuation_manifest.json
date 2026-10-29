@@ -1,0 +1,62 @@
+{
+  "status": "EXPLORATORY_MODELED_ACTUATION_NOT_M3",
+  "source_input_sha256": "bc70cb353ce64693f9783d76e092b1f097c5b34a1fec2e0eac27e6b7a710bcfc",
+  "controller_sha256": "b3d9abcb10f795b6c1b2b1653f5eebc421afae6c8016296457ebadd763e95a5f",
+  "rows_per_policy": 1354253,
+  "bins": 191,
+  "capacity_records_per_60s": 6000,
+  "queue_limit_records": 18000,
+  "central_observation_and_action_delay_bins": 1,
+  "b2": "STATIC_ELEVATED_CANDIDATE",
+  "score_threshold": 0.9978600094336023,
+  "model_semantics": "frozen-score alarm gates filter, FIFO queue, unit-size flow-record service; capacity/queue are uncalibrated assumptions",
+  "oracle_opened": false,
+  "d4_test_scored": false,
+  "goodput_mbps_measured": false,
+  "latency_ms_measured": false,
+  "resource_feedback": "OWN_QUEUE_BEFORE_CURRENT_ARRIVALS",
+  "filtering": "SCORE_GATE_PROXY_NOT_TOKEN_BUCKET_IMPLEMENTATION",
+  "results": [
+    {
+      "policy": "B2",
+      "rows": 1354253,
+      "served": 342911,
+      "filter_denied": 1005184,
+      "queue_overflow": 6158,
+      "censored_in_queue": 0,
+      "peak_remaining_queue": 12000
+    },
+    {
+      "policy": "P4",
+      "rows": 1354253,
+      "served": 348565,
+      "filter_denied": 999530,
+      "queue_overflow": 6158,
+      "censored_in_queue": 0,
+      "peak_remaining_queue": 12000
+    },
+    {
+      "policy": "A1",
+      "rows": 1354253,
+      "served": 348565,
+      "filter_denied": 999530,
+      "queue_overflow": 6158,
+      "censored_in_queue": 0,
+      "peak_remaining_queue": 12000
+    },
+    {
+      "policy": "B5",
+      "rows": 1354253,
+      "served": 359420,
+      "filter_denied": 988675,
+      "queue_overflow": 6158,
+      "censored_in_queue": 0,
+      "peak_remaining_queue": 12000
+    }
+  ],
+  "outputs": {
+    "actions.csv": "5346b3dc13d81b11ab3dbfb7bc65e563a18fd8b24ae49fbe65a6f553f5522c67",
+    "terminal_ledger.csv": "79b35e4a3ccb34af6ee5583190300469a3cccafe0a946bfbb9a64663cae2918c",
+    "summary.csv": "26a3b0a36d1107cdb79cb5c5f53ae193a75b45243a4d1e0bb80c6db9d8b18e50"
+  }
+}
