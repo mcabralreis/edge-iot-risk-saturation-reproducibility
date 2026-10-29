@@ -48,7 +48,7 @@ The R8 MIT release candidate includes [an automated SHA-256 checker](docs/PUBLIC
 for the 39 distributed historical source/evidence files, and a minimal
 GitHub Actions workflow to run source identity, archived-result equality
 and content-category checks on every commit. No dataset access or scientific
-replay is needed for those checks. **MIT licensing for original code is now authorised; public release remains subject to a final content and third-party-rights review.**
+replay is needed for those checks. **MIT licensing for original code was authorised by the author. The repository is publicly available; automated integrity and content checks do not substitute for third-party-rights review.**
 
 ## Quick start — Python 3.10+
 
@@ -112,7 +112,7 @@ The third-party dataset is **ToN_IoT** (UNSW Canberra). It is **not redistribute
 
 **Original author-developed project code is licensed under the MIT licence**, as expressly approved by the author on 29 October 2026. See [LICENSE](LICENSE) and [LICENSE_SCOPE.md](LICENSE_SCOPE.md). This grant does **not** extend to third-party ToN_IoT data, the accepted article or automatically to historical research datasets and evidence. Do not infer a public distribution permission from the inclusion of provenance information or SHA-256 hashes.
 
-**The repository is not yet published.** Review the source code and archived evidence against [docs/RELEASE_CHECKLIST.md](docs/RELEASE_CHECKLIST.md) before publishing; create the GitHub repository as **private** initially and confirm its contents before making it public.
+**The repository is publicly available on GitHub.** The source code and archived evidence are documented in [docs/RELEASE_CHECKLIST.md](docs/RELEASE_CHECKLIST.md). The public release supports bounded archived-result verification; it does not provide a self-contained end-to-end experimental reproduction.
 
 ## Reproducibility disclosures
 

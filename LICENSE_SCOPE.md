@@ -26,6 +26,7 @@ for republication, training, or commercial redistribution. Refer to its source
 and obtain permission as needed. This statement is a scope clarification, not
 an independent certification of ownership for each archived file.
 
-**Publication gate:** Explicit author approval of the code licence does not by
-itself mean that all repository contents have passed a final third-party-rights,
-privacy, and public-visibility review. Create a private GitHub repository first.
+**Public release scope:** The GitHub repository is publicly visible. Author approval of
+the MIT code licence is not a legal certification of rights in all accompanying
+archived evidence, provenance or third-party material. The stated exclusions
+and reuse limitations remain in force.
